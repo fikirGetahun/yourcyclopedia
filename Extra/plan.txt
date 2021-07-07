@@ -1,0 +1,104 @@
+* topic creator 
+	this is a function to enter a topic for the tutorial
+* concepts of the topic creator
+	this function lets you create as many concept title as you like in a single topic. so that you can explain 
+	each concepts in detail
+	--> standard concepts are
+		>> pre-request
+		>> Logic concepts
+			this will have as many concepts title for it self also because the main reason i created this app is to 
+			archive logical part of any concepts i use or must be used. it helps me to refer back to it.
+-----------------------------------------------------------------------------------------------------------
+
+HOW USER ACCESSES
+--> there will be options to list by topic and list by logic but initially it apears like google.com to search by topic by default.
+	you can change the search by logic by a button.
+
+----------------------------------------------------------------------------------
+DB SKELETON
+
+data = [{
+    topic: [{
+        name: "bla bla bla",
+        how-tos: [
+            {
+                title: "some1",
+                pre-request: "some1",
+                step-by-step: ["some1","some2"], //this shows that this how to tutrorial has parts and the parts are stored as array.. and its optional to have more part. you can finish it in only one part
+                intro: "content", 
+                time-stamp: "year and month and day"
+            },
+            {
+                title: "some2",
+                pre-request: "some2",
+                step-by-step: ["some1","some2"],
+                pre-request: "abc",
+                intro: "content", 
+                time-stamp: "year and month and day"
+            }
+        ],
+        pre-request: "abc",
+        info: "content", 
+        time-stamp: "year and month and day"
+    }],
+    Logic: [
+        {
+            title: "some2",
+            pre-request: "some2",
+            step-by-step: ["some1","some2"],
+            pre-request: "abc",
+            intro: "content",    
+            time-stamp: "year and month and day"     
+        }],
+    other:[
+        {
+            title: "some2",
+            pre-request: "some2",
+            step-by-step: ["some1","some2"],
+            pre-request: "abc",
+            intro: "content",   
+            time-stamp: "year and month and day"      
+        }]
+}]
+
+
+----------------------------------------------------------------------------------
+
+** all the data will be placed outside the app with json file
+** a user must be able to edit each data when ever it can and add addtional data when ever it can[ i now i said it i am just sick to tink right know]
+	
+-----------------------------------------------------------------------------------
+
+start manager class
+    this class manages the begining of the app. it manages and calls all the needed functions to be executed...this will control every thing
+
+adder function   done ... waitng for confermation
+    this function will handle all the adding part including all catatgories
+
+search function done ... waitng for confermation
+    here the search is a full searching algorithm that searches in every 'how tos' in the topic and the "how tos" over all...this is the key for the application 
+    because with out this algorithm the whole thing is useless. To beable to search and get what i want with out any delay
+    and flustration is why i need to work on this.  
+
+editor function    done .... waiting for confermation
+    this function will let the user to edit existing data and saves it. it even have a date.
+
+search result lister function  done .... wainting for confermation
+    this will lay out the found macthed data
+
+lister function  done .... waiting for confermation
+    this will list every catagori... at the front page of the app there will be list comand that lists all the catatgories
+    this function does that for the comand.
+
+draft continuer function   ... done waitng for confermation
+    here the adder function must be able to save drafts in separete file and a user can continue adding when ever he likes
+    so this function is for to beable to continue the draft.
+
+
+
+
+
+
+
+
+
