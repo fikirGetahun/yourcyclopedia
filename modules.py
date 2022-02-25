@@ -158,7 +158,7 @@ def contentAdder(direction, start, cont, fileName=None, draft = False, draftData
                 if(draftData != ""):
                     additional0 = draftData
                 additional = input("[*]>>  ")
-                additional = additional0 + additional0
+                additional = additional0 + additional
                 print("[*] Press \"d\" to Save AS Draft or Press \"c\" to Continue ")
                 userChoce = input("[*] >>  " )
                 # now save the info to the object to the draft
@@ -171,7 +171,7 @@ def contentAdder(direction, start, cont, fileName=None, draft = False, draftData
                 file1 = open(f"drafts/topics/{topic}.json", "r")
                 load1 = json.load(file1)
                 load1["pointer"] = []
-                load1["additional"] = info # assign the name object to the name
+                load1["additional"] = additional # assign the name object to the name
                 load1["timeStamp"] = str(date) # date of cration added
                 load1["pointer"].append("additional") # this is very very important. this object helps for the user to continue editing from he left off because of this pointer telling it to where he left it in the last time
                 file1.close()
