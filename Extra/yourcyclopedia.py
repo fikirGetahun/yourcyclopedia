@@ -7,6 +7,7 @@ while(on == True):
     os.system("cls")
     print( """
         WELCOME, To Yourcyclopedia. 
+            A Tool to Save your Crap data in a 'terminally' Possible way!!
 
                 --> Type [ list -T ]  to List [TOPIC'S].
                 --> Type [ list -H ]  to List [HOW TO'S Tutorials].
