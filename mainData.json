@@ -1,1 +1,114 @@
-{"Topic": [{"id": 0, "name": "", "info": "", "additional": "", "timeStamp": "", "howTos": [{"id": 0, "title": "first", "preRequest": "", "content": "", "info": "", "timeStamp": ""}]}, {"id": 1, "name": "PHP", "info": "Its about notes in PHP and how to do certain stuff", "additional": "Its about notes in PHP and how to do certain stuff", "timeStamp": "<built-in method now of type object at 0x00007FFD5E5EB530>", "howTos": [{"id": 0, "title": "How to connect to a database", "preRequest": "you must have apache server installed like xamp. \\n you must have browser", "content": " it goes like this \\n mysql.connect(blablabal)", "info": "bla blab bla", "timeStamp": "<built-in method now of type object at 0x00007FFD5E5EB530>"}]}, {"id": 2, "name": "test", "info": "if", "additional": "if", "timeStamp": "<built-in method now of type object at 0x00007FFD5E5EB530>", "howTos": [{"id": 0, "title": "testter", "preRequest": "c", "content": "sdfsfd edited", "info": "c", "timeStamp": "<built-in method now of type object at 0x00007FFD5E5EB530>"}]}, {"id": 3, "name": "bro", "info": "innnn", "additional": "info", "timeStamp": "<built-in method now of type object at 0x00007FFD83BBB530>", "howTos": [{"id": 0, "title": "tewedaj", "preRequest": "pre", "content": "after", "info": "info", "timeStamp": "<built-in method now of type object at 0x00007FFD83BBB530>"}]}, {"id": 4, "name": "Python", "info": " Everything about Python. including GUI, Games, Logical ...etc", "additional": " Everything about Python. including GUI, Games, Logical ...etc", "timeStamp": "<built-in method now of type object at 0x00007FFDB8B3B530>", "howTos": []}], "howTos": [{"id": "", "title": "", "preRequest": "", "content": "", "info": "", "timeStamp": ""}, {"id": 1, "title": "How to set Shared folder in a Network", "preRequest": "you must have setted a network of computers. prepared ", "info": "this will teach you to set a shared folder in a networks of computers so that \\n users could shere files accross the network.", "timeStamp": "<built-in method now of type object at 0x00007FFD5E5EB530>", "content": " open any folder \\n next Right click on the folder then go to the Properties. \\n then find a \\\"share\\\" tab on the task bar off the propertie window then go to it. \\n then selelct the access to \\\"every one\\\" in the drop down so that any one in the network will access it then its done!! now its done"}, {"id": 2, "title": "Hacking wifi", "preRequest": "you must have linux", "info": "it helps you to hack wifi", "timeStamp": "<built-in method now of type object at 0x00007FFD8FA6B530>", "content": "bla bla bla"}, {"id": 3, "title": "brow", "preRequest": "pre", "info": "sdfsdf", "timeStamp": "<built-in method now of type object at 0x00007FFD83BBB530>", "content": "ed"}, {"id": 4, "title": "alwedishim", "preRequest": "no prerequest", "info": "i dont need you. i never did but you are the blessing in my life and i will thank God for that every day. edited", "timeStamp": "<built-in method now of type object at 0x00007FFD83BBB530>", "content": "beforeafter"}]}
+{
+  "Topic": [
+    {
+      "id": 0,
+      "name": "",
+      "info": "",
+      "additional": "",
+      "timeStamp": "",
+      "howTos": [
+        {
+          "id": 0,
+          "title": "first",
+          "preRequest": "",
+          "content": "",
+          "info": "",
+          "timeStamp": ""
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "PHP",
+      "info": "Its about notes in PHP and how to do certain stuff",
+      "additional": "Its about notes in PHP and how to do certain stuff",
+      "timeStamp": "<built-in method now of type object at 0x00007FFD5E5EB530>",
+      "howTos": [
+        {
+          "id": 0,
+          "title": "How to connect to a database",
+          "preRequest": "you must have apache server installed like xamp. \\n you must have browser",
+          "content": " it goes like this \\n mysql.connect(blablabal)",
+          "info": "bla blab bla",
+          "timeStamp": "<built-in method now of type object at 0x00007FFD5E5EB530>"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "test",
+      "info": "if",
+      "additional": "if",
+      "timeStamp": "<built-in method now of type object at 0x00007FFD5E5EB530>",
+      "howTos": [
+        {
+          "id": 0,
+          "title": "testter",
+          "preRequest": "c",
+          "content": "sdfsfd edited",
+          "info": "c",
+          "timeStamp": "<built-in method now of type object at 0x00007FFD5E5EB530>"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "bro",
+      "info": "innnn",
+      "additional": "info",
+      "timeStamp": "<built-in method now of type object at 0x00007FFD83BBB530>",
+      "howTos": [
+        {
+          "id": 0,
+          "title": "tewedaj",
+          "preRequest": "pre",
+          "content": "after",
+          "info": "info",
+          "timeStamp": "<built-in method now of type object at 0x00007FFD83BBB530>"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Python",
+      "info": " Everything about Python. including GUI, Games, Logical ...etc",
+      "additional": " Everything about Python. including GUI, Games, Logical ...etc",
+      "timeStamp": "<built-in method now of type object at 0x00007FFDB8B3B530>",
+      "howTos": []
+    }
+  ],
+  "howTos": [
+    {
+      "id": "",
+      "title": "",
+      "preRequest": "",
+      "content": "",
+      "info": "",
+      "timeStamp": ""
+    },
+    {
+      "id": 1,
+      "title": "How to set Shared folder in a Network",
+      "preRequest": "you must have setted a network of computers. prepared ",
+      "info": "this will teach you to set a shared folder in a networks of computers so that \\n users could shere files accross the network.",
+      "timeStamp": "<built-in method now of type object at 0x00007FFD5E5EB530>",
+      "content": " open any folder \\n next Right click on the folder then go to the Properties. \\n then find a \\\"share\\\" tab on the task bar off the propertie window then go to it. \\n then selelct the access to \\\"every one\\\" in the drop down so that any one in the network will access it then its done!! now its done"
+    },
+    {
+      "id": 2,
+      "title": "Hacking wifi",
+      "preRequest": "you must have linux",
+      "info": "it helps you to hack wifi",
+      "timeStamp": "<built-in method now of type object at 0x00007FFD8FA6B530>",
+      "content": "bla bla bla"
+    },
+    {
+      "id": 3,
+      "title": "brow",
+      "preRequest": "pre",
+      "info": "sdfsdf",
+      "timeStamp": "<built-in method now of type object at 0x00007FFD83BBB530>",
+      "content": "ed"
+    }
+  ]
+}
